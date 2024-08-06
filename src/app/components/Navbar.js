@@ -42,6 +42,11 @@ export default function Navbar() {
               </ul>
             </nav>
               <ConnectButton />
+              <Link href='./SignUp.js'>
+              <div className='flex items-center ml-4'>
+                <img src='https://cdn-icons-png.flaticon.com/128/3177/3177440.png' alt='Profile Logo' className='w-10 h-10 rounded-full border border-gray-300' />
+              </div>
+              </Link>
             </div>
           </div>
         </RainbowKitProvider>
