@@ -30,7 +30,7 @@ export default function Navbar() {
         <RainbowKitProvider>
           <div className='flex justify-between items-center min-h-20  border-b border-blue-400 w-[100%] py-1 md:px-8 px-5'>
             <div className='min-h-5 flex  justify-start items-center  '>
-              <img src='/logo1.png' className='flex items-center h-24 rounded-full'></img>
+              <img src='/melody.png' className='flex items-center h-20 w-18 rounded-full'></img>
               <Link href='/' className='text-4xl font-bold px-1 flex flex-wrap md:flex-nowrap max-w-[30vw] text-blue-400'>Melody chain</Link>
             </div>
             <div className='flex items-center md:px-10'>
@@ -42,7 +42,7 @@ export default function Navbar() {
               </ul>
             </nav>
               <ConnectButton />
-              <a href='../Aadhaar/SignUp.js'>
+              <a href='./SignUp.js'>
               <div className='flex items-center ml-4'>
                 <img src='https://cdn-icons-png.flaticon.com/128/3177/3177440.png' alt='Profile Logo' className='w-10 h-10 rounded-full border border-gray-300' />
               </div>
